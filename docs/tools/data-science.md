@@ -14,12 +14,10 @@ Benefiting from data science is more than just scraping websites. Organizations 
 
 ## Resources
 
-These resources are synchronized with this [AirTable database](https://airtable.com/shrIyFNx0PYL39Alh/tbl9kGk4uuG08xTJt?backgroundColor=green&viewControls=on). [Submit an update](https://airtable.com/shrtcZuxBz8d6tHjE) if we are missing something!
-
 <vue-airtable
 :columns="['Name', 'Description', 'Topic', 'Link', 'Type']"
 filter="{Topic} = 'Data Science'"
-view="Public">
+view="Tech4Good Resources">
 </vue-airtable>
 
 ## Datasets
@@ -27,5 +25,5 @@ view="Public">
 <vue-airtable
 :columns="['Name', 'Description', 'Topic', 'Link', 'Type']"
 filter="{Topic} = 'Dataset'"
-view="Public">
+view="Tech4Good Resources">
 </vue-airtable>

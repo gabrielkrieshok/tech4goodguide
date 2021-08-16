@@ -14,10 +14,8 @@ Learning new things is challenging — and requires time that many of us simply 
 
 ## Resources
 
-These resources are synchronized with this [AirTable database](https://airtable.com/shrIyFNx0PYL39Alh/tbl9kGk4uuG08xTJt?backgroundColor=green&viewControls=on). [Submit an update](https://airtable.com/shrtcZuxBz8d6tHjE) if we are missing something!
-
 <vue-airtable
 :columns="['Name', 'Description', 'Topic', 'Link', 'Type']"
 filter="{Topic} = 'Learning'"
-view="Public">
+view="Tech4Good Resources">
 </vue-airtable>

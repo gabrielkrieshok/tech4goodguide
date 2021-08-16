@@ -26,7 +26,7 @@ export default {
     return {
       apiUrl: 'https://api.airtable.com/v0/',
       apiKey: 'keysNHLISUnwf7XKF', // Always use a read-only account token
-      base: 'appPOWLf10VT6P8LX/Links',
+      base: 'appPOWLf10VT6P8LX/Resources',
       records: []
     };
   },
